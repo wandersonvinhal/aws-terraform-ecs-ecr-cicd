@@ -38,10 +38,7 @@ Azure DevOps Libraries
 As Libraries do Azure DevOps foram usadas para armazenar variáveis e segredos de forma segura, como chaves de acesso e IDs de recursos, facilitando a gestão de variáveis reutilizáveis entre diferentes pipelines e ambientes.
 Replace Tokens
 
-Durante o processo de Release, a task Replace Tokens foi utilizada para substituir tokens placeholders (#{minha_variavel}#) em arquivos de configuração por valores reais, definidos nas Libraries do Azure DevOps. Isso permite que o pipeline injete variáveis de ambiente e credenciais nos arquivos do Terraform ou outros scripts.
-Diretório CI/CD:
-
-    Local do agente Azure DevOps: /opt/myagent/_work/r6/a/_Esteira-Devops/terraform
+Durante o processo de Release, a task Replace Tokens foi utilizada para substituir tokens placeholders (_minha_variavel_) em arquivos de configuração por valores reais, definidos nas Libraries do Azure DevOps. Isso permite que o pipeline injete variáveis de ambiente e credenciais nos arquivos do Terraform ou outros scripts.
 
 Como Usar
 
